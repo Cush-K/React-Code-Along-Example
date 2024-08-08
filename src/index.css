@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: grey;
+  position: fixed;
+  height: 4em;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  
+}
+
+.burger-menu {
+  width: 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+}
+
+.burger-menu div{
+  width: 25px;
+  height:4px;
+  background-color: white;
+  margin: 3px 0;
+  margin-left: 1em;
+}
+
+nav .menu li {
+  margin: 1em;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  list-style: none;
+}
+
+nav .menu li a {
+  color: black;
+  text-decoration: none;
+}
+
+.awesome {
+  color:black;
+  height:60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+  /* background-image: url("/images/nasa-Q1p7bh3SHj8-unsplash.jpg"); */
+  background-position: center;
+  background-size: cover;
+}
+
+.awesome h1{
+  margin-bottom: .5em;
+}
+
+.awesome p{
+  margin-bottom:1em;
+}
+
+.cta a {
+    text-decoration: none;
+    display: flex;
+    margin: 1em;
+    justify-content: space-between;
+    background-color: #882e2e;
+    color: rgb(10, 211, 20);
+    border: 1px solid #882e2e;
+    padding: .3em .5em;
+    border-radius: 8%;
+}
+
+.border{
+  border: 1px solid black;
+  margin: auto;
+  width: 90vw;
+}
+.border p{
+  padding: .3em;
+}
+
+/* @media(max-width: 750px){
+  nav .menu{
+      display: none;
+  }
+ nav {
+  justify-content: start;
+  }
+  ul.menu.active {
+      display: block;
+  }
+  .burger-menu {
+      display: flex;
+  }
+} */

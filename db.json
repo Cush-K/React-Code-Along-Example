@@ -1,0 +1,74 @@
+{
+  "Projects": [
+    {
+      "id": "1",
+      "name": "Website Redesign",
+      "description": "A complete redesign of the corporate website to improve user experience.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"],
+      "team": ["Alice", "Bob", "Charlie"]
+    },
+    {
+      "id": "2",
+      "name": "Mobile App Development",
+      "description": "Developing a cross-platform mobile app for e-commerce.",
+      "technologies": ["React Native", "Redux", "Node.js"],
+      "team": ["Dave", "Eva", "Frank"]
+    },
+    {
+      "id": "3",
+      "name": "Data Analytics Dashboard",
+      "description": "Creating an interactive dashboard for data analytics and visualization.",
+      "technologies": ["Python", "Django", "React", "D3.js"],
+      "team": ["Grace", "Heidi", "Ivan"]
+    },
+    {
+      "id": "4",
+      "name": "Cloud Migration",
+      "description": "Migrating legacy systems to cloud infrastructure.",
+      "technologies": ["AWS", "Terraform", "Docker"],
+      "team": ["Jack", "Karen", "Leo"]
+    },
+    {
+      "id": "5",
+      "name": "Customer Portal",
+      "description": "Building a self-service customer portal for account management.",
+      "technologies": ["Angular", "Node.js", "Express"],
+      "team": ["Mia", "Nina", "Oscar"]
+    },
+    {
+      "id": "6",
+      "name": "AI Chatbot",
+      "description": "Developing an AI-powered chatbot for customer support.",
+      "technologies": ["Python", "TensorFlow", "Flask"],
+      "team": ["Paul", "Quinn", "Rita"]
+    },
+    {
+      "id": "7",
+      "name": "E-commerce Platform",
+      "description": "Creating an e-commerce platform for small businesses.",
+      "technologies": ["Magento", "PHP", "MySQL"],
+      "team": ["Sam", "Tina", "Uma"]
+    },
+    {
+      "id": "8",
+      "name": "IoT Home Automation",
+      "description": "Building an IoT-based home automation system.",
+      "technologies": ["Arduino", "C++", "Node.js"],
+      "team": ["Victor", "Wendy", "Xander"]
+    },
+    {
+      "id": "9",
+      "name": "Blockchain Payment System",
+      "description": "Developing a blockchain-based payment system.",
+      "technologies": ["Solidity", "Ethereum", "JavaScript"],
+      "team": ["Yara", "Zane", "Amelia"]
+    },
+    {
+      "id": "10",
+      "name": "Social Media Analytics",
+      "description": "Analyzing social media trends and sentiments using machine learning.",
+      "technologies": ["Python", "Pandas", "Scikit-learn"],
+      "team": ["Brian", "Clara", "David"]
+    }
+  ]
+}
