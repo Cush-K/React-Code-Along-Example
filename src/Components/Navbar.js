@@ -12,7 +12,7 @@ function Navbar(){
             <ul className="menu">
                 <li><Link to="/">Home</Link> </li>
                 <li><Link to="/About">About Us</Link> </li>
-                <li><Link to="/ProjectDetails">Project Details</Link> </li>
+                <li><Link to="/projects/:id">Project Details</Link> </li>
                
             </ul>
         </nav>
